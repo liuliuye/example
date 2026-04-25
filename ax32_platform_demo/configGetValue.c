@@ -20,7 +20,9 @@
 *      <2>.Add basic functions & information
 ******************************************************************************/
 #include "application.h" 
-
+/// @brief /
+/// @param config_id 
+/// @return 
 INT32U configValue2Int(INT8U config_id)
 {
 	INT32U value=0;
