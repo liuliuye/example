@@ -21,7 +21,7 @@
 ******************************************************************************/
 #ifndef  APPLICATION_H
     #define  APPLICATION_H
-	
+//111111111111111111111111	
 // hal layer include
 #include "../hal/inc/hal.h"   
 // build win lib
@@ -127,7 +127,7 @@ typedef struct System_Ctrl_S
 
 	u8 photo_finish_flag;
 	u8 photo_focus; 	// delay photo : ms
-	u8 PE0_stat;		// 1 adc  2¶ÁÈ¡µç³Ø×´Ì¬   4¿ØÖÆAIN1      0x10  adc³õÊ¼»¯     0x20 ¶Á³õÊ¼»¯    0x40 AIN1Ð´³õÊ¼»¯
+	u8 PE0_stat;		// 1 adc  2ï¿½ï¿½È¡ï¿½ï¿½ï¿½×´Ì¬   4ï¿½ï¿½ï¿½ï¿½AIN1      0x10  adcï¿½ï¿½Ê¼ï¿½ï¿½     0x20 ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½    0x40 AIN1Ð´ï¿½ï¿½Ê¼ï¿½ï¿½
 	u8 bat_state;
 	u8 sensor_change_flag;
 	u8 timestemp_idx;  //time stemp str idx

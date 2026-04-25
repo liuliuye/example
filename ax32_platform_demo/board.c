@@ -22,6 +22,18 @@
 #include "application.h"
 
 //2222222222222222222222222222
+///我们的板级文件，主要是对板级设备的初始化和控制，用户可以在这里添加自己板级的设备和控制函数
+//aaaaaaaaaaaaaaaaaaa
+
+
+
+
+
+
+
+
+
+//1111111111111111111111111111
 typedef struct Board_S
 {
 	INT16S count;
